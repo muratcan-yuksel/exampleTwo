@@ -2,6 +2,8 @@ import React from "react";
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Filler from "./components/Filler";
+import Discover from "./components/Discover";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       </div> */}
       <Navbar />
       <Header />
+      <Filler />
+      <Discover />
     </div>
   );
 };

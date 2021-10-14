@@ -1,0 +1,10 @@
+.discoverImgContainer {
+  height: 10em;
+  width: 10em;
+  border: 1px solid blue;
+}
+.discoverImg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
