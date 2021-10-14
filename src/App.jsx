@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, ButtonGroup } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Button colorScheme="red">Button</Button>
-      <Button colorScheme="blue">Button</Button>
+      <Navbar />
     </div>
   );
 };
