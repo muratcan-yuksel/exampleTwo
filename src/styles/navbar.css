@@ -1,6 +1,7 @@
 #navBar {
-  background-color: grey;
+  background-color: rgb(230, 215, 197);
 }
 #menuTitle {
-  border: 1px solid black;
+  border: 2px solid black;
+  padding: 7px;
 }
