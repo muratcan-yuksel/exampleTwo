@@ -1,0 +1,19 @@
+#footerContainer {
+  height: 15em;
+  width: 100vw;
+  background-color: rgb(37, 32, 32);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footerList {
+  color: white;
+}
+.footerListItem {
+  margin-left: 2em;
+  margin-bottom: 2px;
+}
+.madeWithLove {
+  color: white;
+  font-size: 3em;
+}

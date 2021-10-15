@@ -9,7 +9,7 @@ import homeComfort from "../assets/homeComfort.jpg";
 const WaysToWork = () => {
   return (
     <div id="servicesComponentContainer">
-      <h1 id="servicesTitle">----My Services----</h1>
+      <h1 id="servicesTitle">My Services</h1>
       <div id="servicesContainer">
         {/* service 1 */}
         <div className="service">
