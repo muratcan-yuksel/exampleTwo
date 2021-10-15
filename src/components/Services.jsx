@@ -22,12 +22,7 @@ const WaysToWork = () => {
               facilis laboriosam, obcaecati earum quisquam reprehenderit quaerat
               quae a ullam repellat.
             </p>
-            <p className="servicePara">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
-              cum, nulla totam quibusdam ducimus aperiam aliquid sed error
-              facilis laboriosam, obcaecati earum quisquam reprehenderit quaerat
-              quae a ullam repellat.
-            </p>
+
             <Button colorScheme="orange">FIND OUT HOW</Button>
           </div>
         </div>

@@ -10,10 +10,12 @@
   width: 12em;
   border: 0.5rem solid rgb(88, 143, 189);
   margin: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 #discoverWrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .discoverImg {

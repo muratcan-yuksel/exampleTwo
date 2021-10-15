@@ -11,19 +11,21 @@
 .service {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .leftSide {
   border: 1px solid black;
-  height: 55vh;
-  width: 22vw;
+  height: 22em;
+  width: 20em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .serviceImgContainer {
-  height: 35vh;
-  width: 17vw;
+  height: 15em;
+  width: 15em;
   /* border: 0.2rem solid rgb(238, 138, 24); */
   border: 1px solid black;
 }
@@ -37,15 +39,21 @@
   font-size: 2em;
 }
 .rightSide {
-  height: 55vh;
-  width: 30vw;
+  /* min-height: 20em; */
+  height: 22em;
+  width: 20em;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.5em;
+  padding: 1em;
+  /* padding-top: 5em; */
+  background-color: rgb(248, 234, 218);
 }
+/* .sideItems {
+  object-fit: fill;
+} */
 .servicePara {
   margin-bottom: 1em;
 }
