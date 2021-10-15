@@ -19,8 +19,9 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 3em;
 }
-.leftSide {
+.imgPart {
   border: 1px solid black;
   height: 22em;
   width: 20em;
@@ -44,7 +45,7 @@
   margin-bottom: 0.5em;
   font-size: 2em;
 }
-.rightSide {
+.textPart {
   /* min-height: 20em; */
   height: 22em;
   width: 20em;
@@ -62,4 +63,7 @@
 } */
 .servicePara {
   margin-bottom: 1em;
+}
+#bluePart {
+  background-color: rgb(175, 188, 247);
 }
