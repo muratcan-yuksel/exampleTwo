@@ -6,6 +6,7 @@ import Filler from "./components/Filler";
 import Discover from "./components/Discover";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
+import About from "./components/About";
 const App = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const App = () => {
       <Discover />
       <Services />
       <Testimonials />
+      <About />
     </div>
   );
 };
