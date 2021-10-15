@@ -5,8 +5,8 @@ import { Button, ButtonGroup } from "@chakra-ui/react";
 
 const WaysToWork = () => {
   return (
-    <div>
-      <h1 id="servicesTitle">My Services</h1>
+    <div id="servicesComponentContainer">
+      <h1 id="servicesTitle">----My Services----</h1>
       <div id="servicesContainer">
         <div className="service">
           <div className="leftSide">

@@ -1,10 +1,16 @@
-/* #servicesComponentContainer {
-  margin-top: 5em;
-} */
-
-/* #servicesTitle{
-
+#servicesComponentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+#servicesTitle {
+  /* font-weight: 600; */
+  font-size: 3em;
+  margin-bottom: 2rem;
+}
+/*
 .servicesContainer{
 
 }*/
