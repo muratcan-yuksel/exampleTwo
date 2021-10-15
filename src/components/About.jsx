@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import { Button, ButtonGroup } from "@chakra-ui/react";
+import theCreator from "../assets/theCreator.jpg";
 const About = () => {
   return (
     <div id="aboutComponentContainer">
@@ -15,28 +16,37 @@ const About = () => {
             qui itaque aliquid, nobis molestias totam?
           </p>
         </div>
-        <div className="aboutImgContainer"></div>
-        <div className="historyContainer">
-          <div className="historyText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-            ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
-            aliquam culpa, amet laboriosam, iure eum obcaecati numquam in
-            aperiam?
-          </div>
-          <div className="historyText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-            ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
-            aliquam culpa, amet laboriosam, iure eum obcaecati numquam in
-            aperiam?
-          </div>
-          <div className="historyText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-            ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
-            aliquam culpa, amet laboriosam, iure eum obcaecati numquam in
-            aperiam?
-          </div>
-          <Button colorScheme="orange">Read the whole story here</Button>
+        <div className="aboutImgContainer">
+          <img id="aboutImage" src={theCreator} alt="" />
         </div>
+      </div>
+      <div className="historyContainer">
+        <div className="historyText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
+          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
+        </div>
+        <div className="historyText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
+          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
+        </div>
+        <div className="historyText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
+          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
+        </div>
+        <div className="historyText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
+          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
+        </div>{" "}
+        <div className="historyText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
+          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
+        </div>
+        <Button colorScheme="orange">Read the whole story here</Button>
       </div>
     </div>
   );
