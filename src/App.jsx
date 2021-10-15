@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, ButtonGroup } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Filler from "./components/Filler";
@@ -8,9 +7,10 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import "./styles/app.css";
 const App = () => {
   return (
-    <div>
+    <div id="AppContainer">
       {/* <div
         style={
           ({ backgroundColor: "rgb(243, 216, 62)" }, { fontSize: "0,3rem" })
