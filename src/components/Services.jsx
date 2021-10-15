@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/services.css";
 import happyPerson from "../assets/happyPerson.jpg";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import goodFood from "../assets/goodFood.jpg";
 import happyMeditation from "../assets/happyMeditation.jpg";
 import homeComfort from "../assets/homeComfort.jpg";
@@ -31,7 +31,7 @@ const WaysToWork = () => {
         </div>
         {/* service 2 */}
         <div className="service">
-          <div className="textPart" id="bluePart">
+          <div className="textPart" id="greenPart">
             <p className="servicePara">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
               cum, nulla totam quibusdam ducimus aperiam aliquid sed error
@@ -67,7 +67,7 @@ const WaysToWork = () => {
         </div>
         {/* service 4 */}
         <div className="service">
-          <div className="textPart" id="bluePart">
+          <div className="textPart" id="greenPart">
             <p className="servicePara">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
               cum, nulla totam quibusdam ducimus aperiam aliquid sed error

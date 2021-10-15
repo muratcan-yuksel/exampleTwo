@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Filler from "./components/Filler";
 import Discover from "./components/Discover";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 const App = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const App = () => {
       <Filler />
       <Discover />
       <Services />
+      <Testimonials />
     </div>
   );
 };
