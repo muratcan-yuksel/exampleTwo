@@ -1,10 +1,15 @@
 #aboutComponentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .aboutTitle {
   font-weight: 600;
   font-size: 2em;
 }
 .aboutContainer {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,11 +19,12 @@
 .aboutTextContainer {
   width: 35em;
   height: 20em;
-  /* margin: 2em; */
+  margin: 2em;
+  margin-bottom: 0;
 }
 .aboutImgContainer {
-  width: 35em;
-  height: auto;
+  width: 33em;
+  height: 20em;
 }
 #aboutImage {
   width: 100%;
@@ -36,4 +42,7 @@
 .historyText {
   margin: 1em 7em 1em 7em;
   font-weight: 400;
+}
+#aboutButton {
+  margin-bottom: 3em;
 }
