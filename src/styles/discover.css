@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4em;
 }
 .discoverImgContainer {
-  height: 30vh;
-  width: 17em;
-  border: 0.5rem solid rgb(118, 118, 134);
+  height: 27vh;
+  width: 12em;
+  border: 0.5rem solid rgb(88, 143, 189);
   margin: 1em;
   margin-bottom: 2em;
 }
