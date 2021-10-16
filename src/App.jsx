@@ -8,18 +8,11 @@ import Testimonials from "./components/Testimonials";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import "./styles/app.css";
+
+//live demo=>  https://hardcore-pike-0851a0.netlify.app/
 const App = () => {
   return (
     <div id="AppContainer">
-      {/* <div
-        style={
-          ({ backgroundColor: "rgb(243, 216, 62)" }, { fontSize: "0,3rem" })
-        }
-        id="newsLetter"
-      >
-        Sign up for my Newsletter for FREE tips to bring your mind and body
-        together & live the life of your dreams
-      </div> */}
       <Navbar />
       <Header />
       <Filler />
