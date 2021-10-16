@@ -36,16 +36,6 @@ const About = () => {
           ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
           aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
         </div>
-        <div className="historyText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
-          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
-        </div>{" "}
-        <div className="historyText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          ratione. Non dolor enim ab illo laborum maxime, sit soluta animi
-          aliquam culpa, amet laboriosam, iure eum obcaecati numquam in aperiam?
-        </div>
         <Button id="aboutButton" colorScheme="orange">
           Read the whole story here
         </Button>
