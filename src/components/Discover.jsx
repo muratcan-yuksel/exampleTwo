@@ -8,7 +8,7 @@ import feelgood4 from "../assets/feelgood4 .jpg";
 const Discover = () => {
   return (
     <div id="discoverContainer">
-      <h1>
+      <h1 id="discoverTitle">
         Discover the programs that have helped thousands heal their mind and
         transform their life
       </h1>

@@ -7,6 +7,11 @@
 .aboutTitle {
   font-weight: 600;
   font-size: 2em;
+  border-bottom: 1px solid black;
+}
+.aboutMeTitle {
+  font-weight: 600;
+  font-size: 2em;
 }
 .aboutContainer {
   width: 100%;

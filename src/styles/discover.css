@@ -5,6 +5,11 @@
   align-items: center;
   margin-bottom: 4em;
 }
+#discoverTitle {
+  font-size: 1.3em;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+}
 .discoverImgContainer {
   height: 27vh;
   width: 12em;
